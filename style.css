@@ -1,3 +1,13 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+h1 {
+    font-size: 24px;
+    color: blue;
+}
+
+h2 {
+    font-size: 18px;
+    color: blueviolet
+}
