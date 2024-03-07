@@ -2,12 +2,146 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-h1 {
-    font-size: 24px;
-    color: blue;
+/*obecné */
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: gainsboro;
+    color: #1A0A1D;
+    line-height: 1.8;
+    margin: 0;
+    font-size: 18px;
+}
+
+section {
+    padding-right: 3%;
+    padding-left: 3%;
 }
 
 h2 {
-    font-size: 18px;
-    color: blueviolet
+    font-size: 26px;
+    color: royalblue;
+}
+
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#summary, #skills, #contacts {
+    background-color: lavender;
+    text-align: left;
+}
+
+/* hlavicka*/
+
+h1 {
+    font-size: 50px;
+    color: royalblue;
+}
+
+.Header {
+    text-align: justify;
+    margin-left: 3%;
+    margin-bottom: 80px;
+    margin-top: 80px;
+}
+
+header strong {
+    font-size: 35px;
+    font-style: italic;
+}
+
+.foto {
+    width: 10%;
+    border-radius: 3%;
+    border-style: solid;
+    border-color: #1A0A1D;
+    position: absolute;
+    right: 10%;
+}
+
+/*menu*/
+
+/* Tohle mi na rozsireni menu na sirku nefunguje
+.sectionmenu {
+    width: 100%;
+}
+Snazim se napolohovat menu na rozhrani 
+backround-hlavicky a souhrnu. Pres marginy se to nedari.
+Podobny problem u boxu v sekci work experience - boxy to ignoruje,
+nastaveno pres margin-bottom rodicovskeho boxu, 
+ale v pripade zmeny poctu radku nebo velikosti pisma to bude
+zase rozhozene...
+*/
+
+.listmenu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-style: italic;
+}
+
+.listmenu li {
+    display: inline-block;
+}
+
+.listmenu a {
+    width: 100%;
+    color: #1A0A1D;
+    text-decoration: none;
+    background-color: #C79AFF;
+    padding: 20px;
+    border-top: 1px solid lavender;
+    position: relative;
+}
+
+.listmenu a:hover {
+    top: 5px;
+}
+
+/* souhrn*/
+#summary {
+    text-align: justify;
+}
+
+/*vzdelani*/
+
+.edutable {
+    width: 800px;
+}
+
+/* prace*/
+#work {
+    position: relative;
+    padding-right: 3%;
+    padding-left: 3%;
+    padding-bottom: 300px;
+}
+
+.physiotherapist {
+    position: absolute;
+    left: 45px;
+}
+
+.jobs {
+    position: absolute;
+    right: 45px;
+}
+
+.emloytable {
+    width: 600px;
+}
+
+/*kontakty*/
+#contacts a {
+    text-decoration: none;
+}
+
+/* paticka*/
+.footer {
+    text-align: center;
+    color: lavender;
+    background-color: #1A0A1D;
+    padding: 1px;
 }
