@@ -138,6 +138,10 @@ zase rozhozene...
     text-decoration: none;
 }
 
+.cont a:hover {
+    top: 5px;
+}
+
 /* paticka*/
 .footer {
     text-align: center;
